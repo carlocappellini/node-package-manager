@@ -4,7 +4,9 @@
   "description": "npm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode development",
+    "build:watch": "webpack --watch --mode development",
+    "build:production": "webpack -p --mode development"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,15 @@
   "bugs": {
     "url": "https://github.com/carlocappellini/node-package-manager/issues"
   },
-  "homepage": "https://github.com/carlocappellini/node-package-manager#readme"
+  "homepage": "https://github.com/carlocappellini/node-package-manager#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "jquery": "^3.3.1",
+    "webpack": "^4.8.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.1.3"
+  }
 }
