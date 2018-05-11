@@ -8,14 +8,14 @@ const mduls = (x, y) => {
 
 
     if ((x + y ) % 2 === 0) {
-        console.log("even " + (x+y))
+        return ("even " + (x+y))
 
 
     }
 
     else  {
 
-        console.log("odd " + (x + y))
+       return ("odd " + (x + y))
     }
 
 };
