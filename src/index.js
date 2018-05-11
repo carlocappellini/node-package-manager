@@ -1,21 +1,15 @@
 "use strict";
 
 
-
-const helloWorld = (name = "Hello World") => {
-
-    return name
-};
-
-console.log(helloWorld());
-
-
-
+const {sub, mduls} = require('./math.js');
 
 const data = require('./data.js');
 
-const m = require('./math.js');
+const hello =  require( './say-hello');
 
-console.log(data.whichSideOfTheForce); // outputs "The Dark Side"
 
-console.log(m.add(5,5))
+console.log(sub(4, 2));
+console.log(mduls(8, 8));
+console.log(data.arnie);
+
+console.log(hello);

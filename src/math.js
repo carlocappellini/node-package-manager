@@ -1,12 +1,23 @@
-const math = {
-    hello: "hello",
-    number:200,
-    add: (x,y) => {
+const sub = (x, y) => x - y;
+const div = (x, y) => x / y;
+const mult = (x, y) => x * y;
 
-        return x + y
+
+const mduls = (x, y) => {
+
+
+    if ((x + y ) % 2 === 0) {
+        return ("even " + (x + y))
+
+
     }
 
+    else {
+
+        return ("odd " + (x + y))
     }
 
+};
 
-module.exports = math
+
+module.exports = {sub, div, mult, mduls};
