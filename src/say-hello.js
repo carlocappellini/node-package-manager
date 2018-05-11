@@ -1,9 +1,7 @@
- const helloWorld = (name = "Hello World") => {
+ const helloWorld = (name = "Hello World") => name
+;
 
-    return name
-};
 
 
 
 module.exports = helloWorld();
-

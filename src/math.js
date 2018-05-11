@@ -1,4 +1,3 @@
-
 const sub = (x, y) => x - y;
 const div = (x, y) => x / y;
 const mult = (x, y) => x * y;
@@ -8,14 +7,14 @@ const mduls = (x, y) => {
 
 
     if ((x + y ) % 2 === 0) {
-        return ("even " + (x+y))
+        return ("even " + (x + y))
 
 
     }
 
-    else  {
+    else {
 
-       return ("odd " + (x + y))
+        return ("odd " + (x + y))
     }
 
 };
